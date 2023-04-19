@@ -108,6 +108,98 @@
         box-shadow: 0 8px 32 px rgba(97, 31, 31, 0.46);
     }
 
+
+   /*#################### EDUCATION ##################*/
+   .content-education {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    justify-content: space-around;
+   }
+
+   .tittle{
+    width: 100%;
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+   }
+   .education{
+    width: 30%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+   }
+
+   .education:hover{
+    box-shadow: 0px 0px 20px cornflowerblue;
+    transition: all ease-in-out .5s ;
+   }
+   
+   .education a { 
+    text-decoration: none;
+    font-size: 12px;
+    color: #0066ff;
+   }
+
+   .education a:hover{
+    color: azure;
+   }
+
+   .education i{
+    color: #880606;
+    font-size: 30px;
+    border-radius: 50%;
+    border: 2px solid royalblue;
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+    text-align: center;
+    align-items: center;
+   }
+
+
+ /*#################### CERTIFICADOS ##################*/
+ .content-certificados{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+}
+
+.certificado{
+    background: rgb(136, 135, 135);
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 22%;
+    padding: 15px;
+    margin:  10px;
+    text-align: center;
+}
+
+.certificado img{
+    height: 100px;
+    width: auto;
+    border-radius: 5px;
+}
+
+.certificado a{
+    color: rgb(2, 2, 2);
+    font-size: 12px;
+    text-decoration: none;
+}
+.certificado a:hover{
+    color: #446e6e;
+}
+.certificado:hover{
+    background-color: #446e6e;
+    color: #fff;
+    transition: all ease-in-out .5s;
+}
+
+
+
+
    /*#################### FOOTER ##################*/
    footer {
     background: rgb(70, 70, 70);
