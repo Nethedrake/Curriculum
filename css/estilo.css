@@ -329,8 +329,41 @@
 
    /*#################### BREAKPOINT ##################*/
    /*###BARRA DE MENU####*/
+   @media screen and (max-witdh:900px) {
+    .contenido-header > img {
+        width: 150px;
+        height: 150px;
+        animation: ease-inanimacion 0.5s;
+    }
+    .h1{
+        font-size: 30px;
+
+    }
+    .contenido-header{
+        width: 100%;
+        height: 400px;
+
+    }
+    .certificado{
+        width: 45%;
+    }
+    /* footer */
+    .partFooter{
+        width: 80%;
+    }
+   .partFooter img{
+    display: none;
+   }
+   
+   footer{
+    padding: 0px;
+   }
+   
+    
+   }
 
    @media screen and (max-width: 700px) {
+   
    .hamburguer {
     display: block;
    }
@@ -364,22 +397,27 @@
     color: #880606;
     background-color: #fff;
    }
+
    /* La visual principal */
    .h1{
-    font-size: 25px;
+    font-size: 35px;
    }
    .contenido-header{
     width: 100%;
-    height: 500px;
+    height: 530px;
     display: block;
    }
-   .contenido-header > img, texto-header{
+   .contenido-header > img{
     width: 120px;
     height:120px;
     animation: ease-in animacion 0.5s;
     margin-top: 20px;
     margin-left: 0px
    }
+   .texto-header{
+    margin-left: 0px;
+   }
+
    
    /* Section Education */
    .education, .certificado, .partFooter{
@@ -391,15 +429,8 @@
     height: 130px;
    }
 
-   /* footer */
-   .partFooter img{
-    display: none;
-   }
    
-   footer{
-    padding: 0px;
-   }
-
+   
 }
 
 
