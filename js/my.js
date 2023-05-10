@@ -12,7 +12,7 @@ document.querySelectorAll(".hamburguer")[0].addEventListener("click", function()
     }
     enlaces_header.classList.toggle("hamburgueropen");
 })
-document.querySelectorAll(".enlaces_header")[0].addEventListener("click", function () {
+document.querySelectorAll(".enlaces_header")[0].addEventListener("click", function (){
     enlaces_header.classList.toggle("hamburgueropen");
     document.querySelectorAll(".hamburguer")[0].style.color = "#000"
 
